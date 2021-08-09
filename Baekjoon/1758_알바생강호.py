@@ -12,6 +12,7 @@ for num in range(nums):
 my_list.sort(reverse=True)
 tips = 0
 for my in range(len(my_list)):
-    tips += my_list[my] - (my + 1 - 1)
-
+    tip = my_list[my] - (my + 1 - 1)
+    if tip > 0:
+        tips += tip
 print(tips)
