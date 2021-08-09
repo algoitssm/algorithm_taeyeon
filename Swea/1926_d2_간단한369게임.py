@@ -16,3 +16,5 @@ for str_l in str_list:
         print(str_l, end = ' ')          
     else:
         print('-'*cnt, end = ' ') 
+
+# 문자열말고 자릿수 숫자로도 풀어보깅
