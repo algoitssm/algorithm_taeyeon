@@ -11,3 +11,10 @@ for j in range(nums):                      # 큰 수를 기준으로 정렬한 m
     total.append(my_list[j] * (j+1))
 
 print(max(total))
+            
+
+10, 20, 30, 40
+             1
+         2   1
+4   3    2   1
+40  60  60  40

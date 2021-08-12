@@ -1,4 +1,5 @@
 grades = ["A+", "A0", "A-", "B+", "B0", "B-", "C+", "C0", "C-", "D0"]
+
 T = int(input())
 for t in range(1, T+1):
     number, num = map(int, input().split())

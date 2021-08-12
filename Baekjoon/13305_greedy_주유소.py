@@ -11,4 +11,6 @@ for i in range(1, city-1):                            # 마지막 지역의 기�
     else:
         min_price = price[i]                          # 2. 도착한 지점의 기름가격이 기준기름비용보다 작은 경우
         total += min_price * load[i]                  # 초기 비용 + 기준 비용을 현재 위치의 기름 비용으로 설정하고 계산
+
+# total += min_price * load[i]        
 print(total)

@@ -4,7 +4,7 @@ for i in range(num):
     start, finish = map(int, input().split())
     time_list.append((start, finish))
 
-time_list.sort(key = lambda x: [x[1], x[0]])
+time_list.sort(key=lambda x: [x[1], x[0]])
 
 room_count = 0
 finish_time = 0
