@@ -23,7 +23,7 @@ import heapq
 import sys
 
 cnt = int(input())
-
+ 
 class_time = []
 for _ in range(cnt):
     start, end = map(int, sys.stdin.readline().split())
