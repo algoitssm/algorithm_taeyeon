@@ -1,6 +1,5 @@
 small, big = map(int, input().split())
 
-
 cnt = 1
 while True:
     if small == big:  # 5,5 인경우 밑에서 걸러져버림
@@ -20,6 +19,7 @@ while True:
 
 print(cnt)
 
+# deque
 
 """
 cnt = 1

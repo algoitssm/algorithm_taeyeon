@@ -9,7 +9,7 @@ for i in range(1, num):
             count += 1
             if word[i + 1] == "R":
                 count -= 1
-    else:
+    elif word[0] == "R":
         if word[i] == "B":
             count += 1
             if word[i + 1] == "B":

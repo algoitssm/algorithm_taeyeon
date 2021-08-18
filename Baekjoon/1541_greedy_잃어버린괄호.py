@@ -3,7 +3,7 @@ math_ex = input().split("-")
 
 start = 0
 
-# 첫시작은 + 이고, 이후 +인 경우 해당
+# 첫시작은 + 이고, 이후 +인 경우 해당 55 + 50
 for math in math_ex[0].split("+"):
     start += int(math)
 # print(start)
