@@ -19,6 +19,7 @@ for _ in range(N - 1):
     adj[n2].append(n1)
 
 parent = [0 for _ in range(N + 1)]
+
 dfs(1)
 
 for i in range(2, N + 1):

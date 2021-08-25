@@ -7,7 +7,7 @@ def bfs(S):
     visited[S] = 1  # 초기 1 컴 방문 설정
 
     while que:
-        status = que.pop()
+        status = que.popleft()  # pop - dfs
         for i in range(2, V + 1):  # 1컴 부터 시작
             if virus[status][i] == 1 and visited[i] == 0:  # network연결되어 있으면서 방문 안한 경우
                 visited[i] = 1  # 방문으로 체크

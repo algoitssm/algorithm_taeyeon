@@ -1,12 +1,12 @@
 # dfs...cnt 1의 모든 수 sum ...........
 from collections import deque
 
-
+# 최단거리는 bfs!~!~!~!~!
 def maze_visit(row, col):
     que = deque()
-    que.append((row, col))  # que = [(row, col)] 하면.. popleft:x,pop(0)
+    que.append((row, col))
 
-    while len(que) > 0:  # 사라질 때 까지
+    while len(que) > 0:
         row, col = que.popleft()
         for i in range(4):  # 방향 설정
             nrow = row + drow[i]
