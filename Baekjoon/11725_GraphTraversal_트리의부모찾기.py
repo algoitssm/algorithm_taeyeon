@@ -1,29 +1,61 @@
+import sys
+
+sys.setrecursionlimit(100000)
+
+
+def dfs(col):
+    for i in adj[col]:
+        if parent[i] == 0:
+            parent[i] = col
+            dfs(i)
+
+
+N = int(sys.stdin.readline())
+adj = [[] for _ in range(N + 1)]
+
+for _ in range(N - 1):
+    n1, n2 = map(int, sys.stdin.readline().split())
+    adj[n1].append(n2)
+    adj[n2].append(n1)
+
+parent = [0 for _ in range(N + 1)]
+dfs(1)
+
+for i in range(2, N + 1):
+    print(parent[i])
+
+"""
+import sys
+
+sys.setrecursionlimit(100000)
 from collections import deque
 
 
-def bfs(S):
+def bfs(col):
     que = deque()
-    que.append(S)  # que에 초기값 저장
-    visited[S] = 1  # 초기 s = 1 루트 설정
-
+    que.append(col)
     while que:
-        status = que.pop()
-        for i in range(1, V + 1):  # 1 부터 시작
-            if adj[status][i] == 1 and visited[i] == 0:  # 연결되어 있으면서 방문 안한 경우
-                visited[i] = 1  # 방문으로 체크
+        par = que.popleft()
+        for i in adj[par]:
+            if visited[i] == 0:
+                visited[i] == 1
+                parent[i] == par
                 que.append(i)
-                print(i)
-    return -1
+    return parent
 
 
-V = int(input())  # 노드
+N = int(input())
+adj = [[] for _ in range(N + 1)]
 
-adj = [[0] * (V + 1) for _ in range(V + 1)]  # 연결되어 있는 정보 확인 리스트
-visited = [0] * (V + 1)
-
-for _ in range(len(adj) - 2):
+for _ in range(N - 1):
     n1, n2 = map(int, input().split())
-    adj[n1][n2] = 1
-    adj[n2][n1] = 1  # 연결 되어 있는 확인 리스트 생성
+    adj[n1].append(n2)
+    adj[n2].append(n1)
 
-print(bfs(1))  # 초기 s = 1 루트 설정
+parent = [0 for _ in range(N + 1)]
+visited = [0 for _ in range(N + 1)]
+bfs(1)
+print()
+for i in range(2, N + 1):
+    print(parent[i])
+"""
