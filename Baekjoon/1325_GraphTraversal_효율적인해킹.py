@@ -1,39 +1,33 @@
+import sys
 from collections import deque
 
 
-def bfs(col):
+def bfs(row):
+    visited = [0 for _ in range(N + 1)]
+    cnt = 1
     que = deque()
-    que.append(col)
-    visited[col] = 1
-    cnt = 0  # 해킹되는 수
+    que.append(row)
+    visited[row] = 1
     while que:
-        hack = que.popleft()
-        for i in range(N):
-            if adj[col][i] == 1 and visited[col] == 0:
-                visited[col] = 1
-                que.append(i)
+        com = que.popleft()
+        for i in adj[com]:
+            if visited[i] == 0:
+                visited[i] = 1
                 cnt += 1
+                que.append(i)
+    # return sum(visited)
     return cnt
 
 
-N, M = map(int, input().split())
-adj = [[0] * (N + 1) for _ in range(N + 1)]
+N, M = map(int, sys.stdin.readline().split())
+adj = [[] for _ in range(N + 1)]
 
 for _ in range(1, N):
-    n1, n2 = map(int, input().split())
-    adj[n2][n1] = 1
+    n1, n2 = map(int, sys.stdin.readline().split())
+    adj[n2].append(n1)  # 오른쪽에 입력받은 컴퓨터 기준 [[], [3], [3], [4, 5], [], []]
 
-result = []
-max_v = 0
+result = [bfs(i) for i in range(N)]
 
-visited = [0 for _ in range(N + 1)]
-# print(adj)
-for i in range(1, N + 1):
-    hacker = bfs(i)
-    if max_v == hacker:
-        result.append(i)
-    if max_v < hacker:
-        max_v = hacker
-        result = []
-        result.append(i)
-print(*result)
+for i in range(len(result)):
+    if result[i] == max(result):
+        print(i, end=" ")
