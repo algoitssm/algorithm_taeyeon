@@ -1,18 +1,15 @@
 from collections import deque
-import sys
-
-sys.stdin = open("input.txt")
 
 
 def time(time):
-    if time % 2 == 0:  # 짝수번째 시간에는 0초로 폭발한 폭탄을 다시 3으로 채워준다.
+    if time % 2 == 0:  # 짝수번째 시간에는 0초로 폭발한 폭탄을 다시 3으로 채워주고 이외의 것들 -1
         for a in range(R):
             for b in range(C):
                 if arr[a][b] == 0:
                     arr[a][b] = 3
                 else:
                     arr[a][b] -= 1
-    elif time % 2 == 1:
+    elif time % 2 == 1:  # 홀수번째 시간에는 폭발하는 bfs돌려주고 이외의 것들 -1
         for x in range(R):
             for y in range(C):
                 if arr[x][y] == 1:
