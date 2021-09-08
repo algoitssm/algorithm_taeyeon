@@ -1,6 +1,35 @@
-import sys
+def dfs(num):
+    global cnt
+    if len(tree[num]) < 1: # 트리의 값이 0인 경우 값을 추가
+        cnt += 1
+        return
+    for j in tree[num]:
+        dfs(j)
 
+# 데이터 입력받기 
+N = int(input())
+nums = list(map(int, input().split()))
+tree = [[] for _ in range(N)]
+delete = int(input())
+
+for i in range(N):
+    if nums[i] != -1 and i != delete: # 지울 노드가 아니고 root가 아닌경우만 추가, 지울 노드를 중간에 연결 끊기 위해서
+        tree[nums[i]].append(i)
+    elif nums[i] == -1: # -1 인 경우에 root로 지정
+        root = i
+# print(tree)  # [[1, 2], [], [3], [], [5, 6], [], [7, 8], [], []]
+cnt = 0
+if root == delete:
+    cnt = 0
+else:
+    dfs(root)
+print(cnt)
+
+
+"""
+import sys
 sys.stdin = open("input.txt")
+
 
 N = int(input())
 nums = list(map(int, input().split()))
@@ -36,3 +65,4 @@ if cnt <= counter:
     print(cnt - counter + 1)
 else:
     print(cnt - 1)
+"""
