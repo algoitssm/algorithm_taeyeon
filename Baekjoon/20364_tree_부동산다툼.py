@@ -2,12 +2,19 @@ import sys
 sys.stdin = open('input.txt')
 from collections import deque
 
+def check(node):
+    while node > 1:
+        if occupy[node//2] == 1:
+            return True
+        else:
+            node //= 2
+    return False
 
 def bfs(que):
     global possible
     while que:
         node = que.popleft()
-        if occupy[node] == 1 or occupy[node // 2] == 1: # 첫번째 값을 찾아야함...!!!!!
+        if occupy[node] == 1 or check(node):# 첫번째 값을 찾아야함...!!!!!
             possible = node // 2
         else:
             occupy[node] = 1
