@@ -4,7 +4,7 @@ import sys
 
 sys.stdin = open("input.txt")
 
-
+# 인덱스로 탐색필요
 def solve(posterorder, inorder):
     if len(posterorder) == 0:
         return

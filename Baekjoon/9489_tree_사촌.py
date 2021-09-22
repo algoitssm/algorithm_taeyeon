@@ -16,7 +16,7 @@ while True:
         if tree[i] != tree[i - 1] + 1:  # 연속된 값인지 확인
             root += 1
         parents[i] = root  # 연속된 값인 경우 같은 값을 인덱스에 입력
-    # print(parents, cousin)
+    print(parents, cousin)
 
     result = 0
     for i in range(1, len(tree)):

@@ -1,4 +1,3 @@
-# 92% 틀렸습니다.
 import sys
 
 sys.stdin = open("input.txt")
@@ -49,8 +48,8 @@ for i in range(len(tree_idx_level)):
     for j in range(2, max_level_idx + 1):
         if tree_idx_level[i][1] == j:
             result[j].append(tree_idx_level[i][0])
-# print(result) # 각level별로 가능한 idx 담은 리스트
-final_result = [1, 0]
+print(result)  # 각level별로 가능한 idx 담은 리스트
+final_result = [1, 1]
 for i in range(len(result)):
     if len(result[i]) > 1:
         if final_result[1] < max(result[i]) - min(result[i]) + 1:

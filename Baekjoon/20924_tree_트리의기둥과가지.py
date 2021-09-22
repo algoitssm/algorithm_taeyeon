@@ -1,8 +1,9 @@
 import sys
 
+sys.setrecursionlimit(10 ** 6)
 sys.stdin = open("input.txt")
 
-
+# 양방향 처리 해줘야함 12,7일때 (3,7)
 def dfs(giga_node, giga_length):
     for node in tree[giga_node]:
         if visited[node[0]][0] == 0:  # 방문하지 않은경우
@@ -11,10 +12,10 @@ def dfs(giga_node, giga_length):
             visited[node[0]][1] = giga_length + node[1]
 
 
-N, R = map(int, input().split())
+N, R = map(int, sys.stdin.readline().split())
 tree = [[] for i in range(N + 1)]
 for i in range(N - 1):
-    a, b, d = map(int, input().split())
+    a, b, d = map(int, sys.stdin.readline().split())
     tree[a].append((b, d))
     tree[b].append((a, d))
 
@@ -22,6 +23,7 @@ giga_f = []
 for i in range(len(tree)):
     if len(tree[i]) > 2:
         giga_f.append(i)
+# print(giga_f)
 if len(giga_f) < 1:
     giga_node = N
 else:
@@ -35,7 +37,6 @@ for i in range(R, giga_node):
             length += j[1]
             visited[j[0]][0] = 1
 visited[giga_node][0] = 1
-
 dfs(giga_node, 0)
 
 print(length, max(visited)[1])
