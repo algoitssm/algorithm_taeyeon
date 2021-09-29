@@ -4,7 +4,7 @@ import math
 
 sys.stdin = open("input.txt")
 
-"""
+'''
 def solve(my_final_list, pos):
     global result_final, min_value, max_value
     operate = ['+', '-', '*', '/']
@@ -67,7 +67,7 @@ for tc in range(int(input())):
     max_value = 0
     for fi in final:
         solve(fi, 0)
-"""
+'''
 
 
 def solve(idx, result):
@@ -81,22 +81,16 @@ def solve(idx, result):
 
     for i in range(4):
         if operator[i]:  # 연산자 존재하는 경우,
+            operator[i] -= 1
             if i == 0:
-                operator[i] -= 1
                 solve(idx + 1, result + num[idx + 1])
-                operator[i] += 1
             elif i == 1:
-                operator[i] -= 1
                 solve(idx + 1, result - num[idx + 1])
-                operator[i] += 1
             elif i == 2:
-                operator[i] -= 1
                 solve(idx + 1, result * num[idx + 1])
-                operator[i] += 1
             elif i == 3:
-                operator[i] -= 1
                 solve(idx + 1, int(result / num[idx + 1]))
-                operator[i] += 1
+            operator[i] += 1
 
 
 for tc in range(int(input())):

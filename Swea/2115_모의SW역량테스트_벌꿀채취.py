@@ -24,9 +24,7 @@ for tc in range(int(input())):
                 if sum(second_person) <= c:
                     for p in second_person:
                         max_honey_2 += p ** 2
-                elif (
-                    sum(second_person) > c
-                ):  # 경우의수....................................................
+                elif sum(second_person) > c: # 경우의수....................................................
                     if max_honey_2 < (max(second_person)) ** 2:
                         max_honey_2 = (max(second_person)) ** 2
                 second_honey_list.append(max_honey_2)
