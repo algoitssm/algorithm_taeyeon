@@ -18,10 +18,11 @@ def partition(paper):
         mid = len(paper)//2
         for i in paper[:mid]:  # 절반 위에 상위 n//2
             ltop.append(i[:mid])
+        for i in paper[:mid]:  # 절반 위에 상위 n//2
             rtop.append(i[mid:])
-
         for i in paper[mid:]:
             lbottom.append(i[:mid])
+        for i in paper[mid:]:
             rbottom.append(i[mid:])
 
         partition(ltop)
