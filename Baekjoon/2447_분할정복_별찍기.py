@@ -21,7 +21,7 @@ def solve(n):
         for j in range(3):  # 3개로 분리 열
             if not (i == 1 and j == 1):
                 for k in range(n):
-                    star[n * i + k][n * j:n * j + n] = star[k][:n]  # 왼쪽 우상단이랑 같게 만듬
+                    star[n * i + k][n * j:n * j + n] = star[k][:n]  # 왼쪽 상단이랑 같게 만듬
 
 
 

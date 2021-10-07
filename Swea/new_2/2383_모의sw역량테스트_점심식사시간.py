@@ -2,8 +2,6 @@ import sys
 sys.stdin = open('input.txt')
 
 def solve(people_list, stairs_list):
-    return 3
-def solve(people_list, stairs_list):
     pass
 
 

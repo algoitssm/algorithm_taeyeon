@@ -11,7 +11,7 @@ def partition(video):
     rbottom = []
 
     if color_solve(video):
-        if video[0][0] == '1':  # 값이 1 이어서 blue인 경우 cnt += 1
+        if video[0][0] == '1':
             result.append(1)
         else:
             result.append(0)
@@ -20,11 +20,16 @@ def partition(video):
         mid = len(video)//2
         for i in video[:mid]:  # 절반 위에 상위 n//2
             ltop.append(i[:mid])
+
+        for i in video[:mid]:  # 절반 위에 상위 n//2
             rtop.append(i[mid:])
 
         for i in video[mid:]:
             lbottom.append(i[:mid])
+
+        for i in video[mid:]:
             rbottom.append(i[mid:])
+
         result.append('(')
         partition(ltop)
         partition(rtop)
