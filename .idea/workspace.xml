@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f57e030e-67ba-4174-bca1-1e5f95e92096" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Swea/2382_모의sw역량테스트_미생물격리.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swea/new_2/2382_모의sw역량테스트_미생물격리.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swea/new_2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Swea/new_2/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,41 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Baekjoon/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Baekjoon/2448_분할정복_별찍기-11.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Baekjoon/15666.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Swea/5656_모의SW역량테스트.py">
+        <entry file="file://$PROJECT_DIR$/Swea/2382_모의sw역량테스트_미생물격리.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="31" column="72" lean-forward="true" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="516">
+              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swea/new_2/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -87,8 +69,6 @@
         <option value="$PROJECT_DIR$/Swea/1926_d2_간단한369게임.py" />
         <option value="$PROJECT_DIR$/Swea/new_2/2117.py" />
         <option value="$PROJECT_DIR$/Swea/input.txt" />
-        <option value="$PROJECT_DIR$/Swea/new_2/input.txt" />
-        <option value="$PROJECT_DIR$/Swea/new_2/2382_모의sw역량테스트_미생물격리.py" />
         <option value="$PROJECT_DIR$/Swea/2117_모의sw역량테스트_홈방범서비스.py" />
         <option value="$PROJECT_DIR$/Baekjoon/15652.ㅔㅛ.py" />
         <option value="$PROJECT_DIR$/Baekjoon/16554.py" />
@@ -107,12 +87,16 @@
         <option value="$PROJECT_DIR$/Baekjoon/15666.py" />
         <option value="$PROJECT_DIR$/Baekjoon/input.txt" />
         <option value="$PROJECT_DIR$/Baekjoon/2448_분할정복_별찍기-11.py" />
+        <option value="$PROJECT_DIR$/Swea/new_2/input.txt" />
+        <option value="$PROJECT_DIR$/Swea/new_2/2382_모의sw역량테스트_미생물격리.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1943" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1704" />
+    <option name="y" value="225" />
+    <option name="width" value="1555" />
+    <option name="height" value="710" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -159,28 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2448_분할정복_별찍기-11">
-    <configuration name="15663" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="study_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjoon" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/15663.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.2382_모의sw역량테스트_미생물격리">
     <configuration name="15664" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,6 +207,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="2382_모의sw역량테스트_미생물격리" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="study_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Swea/new_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\taesaurus\ssafy-6\study_algorithm\Swea\2382_모의sw역량테스트_미생물격리.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="2448_분할정복_별찍기-11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2382_모의sw역량테스트_미생물격리" />
         <item itemvalue="Python.2448_분할정복_별찍기-11" />
         <item itemvalue="Python.15666" />
         <item itemvalue="Python.15665" />
         <item itemvalue="Python.15664" />
-        <item itemvalue="Python.15663" />
       </list>
     </recent_temporary>
   </component>
@@ -289,15 +273,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1554" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16865079" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40877843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35785952" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26867336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43589744" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,11 +311,6 @@
           <url>file://$PROJECT_DIR$/Baekjoon/18222_분할정복_투에모스문자열.py</url>
           <line>19</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Swea/new_2/2382_모의sw역량테스트_미생물격리.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Baekjoon/15664.py</url>
@@ -523,20 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swea/new_2/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swea/new_2/2382_모의sw역량테스트_미생물격리.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Swea/2117_모의sw역량테스트_홈방범서비스.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -653,10 +617,31 @@
     <entry file="file://$PROJECT_DIR$/Swea/5656_모의SW역량테스트.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="31" column="72" lean-forward="true" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swea/new_2/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swea/2382_모의sw역량테스트_미생물격리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
         </state>
       </provider>
     </entry>
