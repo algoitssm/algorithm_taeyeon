@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
+#
 n = int(input())
 star = ["  *  ", " * * ", "*****"]
 n_list = [3*(2**i) for i in range(11)]
@@ -12,9 +13,9 @@ for _ in range(k):
     for i in range(len(star)*2):
         m = len(star)
         if i < m:
-            c.append(' '*(len(star[i % m])//2 + 1)+star[i % m]+' '*(len(star[i % m])//2+1))
+            c.append(' ' * (len(star[i % m])//2 + 1) + star[i % m] + ' ' * (len(star[i % m])//2+1))
         else:
-            c.append(star[i % m]+' '+star[i % m])
+            c.append(star[i % m] + ' ' + star[i % m])
     star = c
 for s in star:
     print(s)
