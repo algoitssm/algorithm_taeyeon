@@ -2,12 +2,16 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Baekjoon/18222_분할정복_투에모스문자열.py" line="5" />
+    <bookmark url="file://$PROJECT_DIR$/Baekjoon/new/11403_graph.py" line="4" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f57e030e-67ba-4174-bca1-1e5f95e92096" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Swea/new_2/5653_줄기세포배양.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/new/11265_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/new/11403_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/new/2224_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Swea/new_2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Swea/new_2/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/new/18352_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/new/18352_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/new/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/new/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +21,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Swea/new_2/5653_줄기세포배양.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baekjoon/new/2224_graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="161">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Swea/new_2/input.txt">
+        <entry file="file://$PROJECT_DIR$/Baekjoon/new/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+            <state relative-caret-position="276">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Baekjoon/new/11265_graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -87,18 +100,21 @@
         <option value="$PROJECT_DIR$/Baekjoon/15649.py" />
         <option value="$PROJECT_DIR$/Baekjoon/input.txt" />
         <option value="$PROJECT_DIR$/Baekjoon/2448_분할정복_별찍기-11.py" />
-        <option value="$PROJECT_DIR$/Baekjoon/new/input.txt" />
-        <option value="$PROJECT_DIR$/Baekjoon/new/18352_graph.py" />
         <option value="$PROJECT_DIR$/Swea/new_2/input.txt" />
         <option value="$PROJECT_DIR$/Swea/new_2/5653_줄기세포배양.py" />
+        <option value="$PROJECT_DIR$/Baekjoon/new/18352_graph.py" />
+        <option value="$PROJECT_DIR$/Baekjoon/new/11403_graph.py" />
+        <option value="$PROJECT_DIR$/Baekjoon/new/2224_graph.py" />
+        <option value="$PROJECT_DIR$/Baekjoon/new/input.txt" />
+        <option value="$PROJECT_DIR$/Baekjoon/new/11265_graph.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -115,13 +131,13 @@
             <path>
               <item name="study_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="study_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Swea" type="462c0819:PsiDirectoryNode" />
+              <item name="Baekjoon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="study_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Swea" type="462c0819:PsiDirectoryNode" />
-              <item name="new_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Baekjoon" type="462c0819:PsiDirectoryNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,8 +167,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5653_줄기세포배양">
-    <configuration name="15666" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.11265_graph">
+    <configuration name="11265_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,11 +176,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjoon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjoon/new" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/15666.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/new/11265_graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11403_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="study_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjoon/new" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/new/11403_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +231,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2382_모의sw역량테스트_미생물격리" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2224_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,32 +239,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Swea/new_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjoon/new" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\taesaurus\ssafy-6\study_algorithm\Swea\2382_모의sw역량테스트_미생물격리.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2448_분할정복_별찍기-11" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="study_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjoon" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/2448_분할정복_별찍기-11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/new/2224_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5653_줄기세포배양" />
+        <item itemvalue="Python.11265_graph" />
+        <item itemvalue="Python.2224_graph" />
+        <item itemvalue="Python.11403_graph" />
         <item itemvalue="Python.18352_graph" />
-        <item itemvalue="Python.2448_분할정복_별찍기-11" />
-        <item itemvalue="Python.2382_모의sw역량테스트_미생물격리" />
-        <item itemvalue="Python.15666" />
+        <item itemvalue="Python.5653_줄기세포배양" />
       </list>
     </recent_temporary>
   </component>
@@ -281,15 +297,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1454257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38527852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26867336" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43589744" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4281525" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43548387" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -326,14 +343,14 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Baekjoon/new/18352_graph.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Swea/new_2/5653_줄기세포배양.py</url>
           <line>14</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/new/11403_graph.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -388,9 +405,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Swea/5658_모의SW역량테스트_보물상자비밀번호.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Swea/4012_모의SW역량테스트_요리사.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -410,13 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/algo/2112.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/algo/2112.py" />
     <entry file="file://$PROJECT_DIR$/Swea/4008_모의SW역량테스트_숫자만들기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -461,13 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/algo/1074.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/algo/1074.py" />
     <entry file="file://$PROJECT_DIR$/Baekjoon/2447.py" />
     <entry file="file://$PROJECT_DIR$/Baekjoon/2630_분할정복_색종이만들기.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -675,34 +677,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Swea/new_2/5653_줄기세포배양.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swea/new_2/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Baekjoon/new/18352_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="230">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon/new/11403_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon/new/2224_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Baekjoon/new/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="276">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swea/new_2/input.txt">
+    <entry file="file://$PROJECT_DIR$/Baekjoon/new/11265_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swea/new_2/5653_줄기세포배양.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="69">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
