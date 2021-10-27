@@ -11,7 +11,8 @@ def dfs(idx):
             result.append((the[0], idx))
         for i in tree[idx]:
             if not visited[i]:
-                dfs(i)
+                visited[i] = 1
+                que.append(i)
 
 n = int(sys.stdin.readline())
 thesis = [list(map(str, sys.stdin.readline().split())) for _ in range(n)]
@@ -24,6 +25,7 @@ result = []
 for the in thesis:
     visited = [0 for _ in range(70)]
     dfs(the[0])
-result = sorted(result, key=lambda x : (x[0], x[1]))
+result = sorted(list(set(result)), key=lambda x : (x[0]))
+print(len(result))
 for i in range(len(result)):
     print(chr(result[i][0]+65)+' => '+chr(result[i][1]+65))
