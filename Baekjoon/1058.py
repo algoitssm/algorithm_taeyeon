@@ -14,6 +14,7 @@ for k in range(n):
             elif friends[i][k] == 'Y' and friends[k][j] == 'Y':
                 graph[i][j] = 1
 result = 0
+# print(graph)
 # 가장 친구가 많은 행으로 선택
 for gra in graph:
     if result < sum(gra):

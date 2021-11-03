@@ -14,7 +14,7 @@ for k in range(nmr[0]):
     for i in range(nmr[0]):
         for j in range(nmr[0]):
             if i == j:
-                continue
+                continue # graph[i][j] = 0
             if graph[i][j] > graph[i][k] + graph[k][j]:
                 graph[i][j] = graph[i][k] + graph[k][j]  #거리의 길이를 최단으로 설정
 

@@ -5,7 +5,7 @@ sys.stdin = open("input.txt")
 n, d = map(int, input().split())
 load_list = [list(map(int, input().split())) for _ in range(n)]
 
-graph = [[] for _ in range(1001)]
+graph = [[] for _ in range(10001)]
 dis = [i for i in range(d+1)]
 for load in load_list:
     graph[load[0]].append([load[1], load[2]])
